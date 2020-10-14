@@ -3,7 +3,7 @@ import sys
 x=open(sys.argv[1]).readlines()
 y=open(sys.argv[1]+'.top','a')
 cur_rec=''
-
+i=0
 for l in x:
 	if l.split()[0]!=cur_rec:
 		cur_rec=l.split()[0]
